@@ -10,6 +10,9 @@ Hash cracker supports dictionary attacks for hash types md5, sha1.
 
 # How to Use:
 
-Hashcracker will ask you to enter a hash, It will automatically detect what type of hash is entered (Must be one of the selected hash which is MD5 or SHA1).
+1 - Hashcracker will ask you to enter a hash, It will automatically detect what type of hash is entered.
+Note: (Must be one of the selected hash which is MD5 or SHA1 and the entered word must be from the wordlist in case using dictionary option)
 
-Hashcracker will then prompt you to enter the name of the wordlist you would like to use. Must be in the wordlist.txt, otherwise program will give this message "please make sure to include the full path to the wordlist".
+2 - Hashcracker will show you two option in Gui which you have to select one of:
+- Dictionary attack button 
+- Brute-force attack button
